@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-6 col-sm-4 portfolio-item">
                 <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -78,7 +78,7 @@
                     <p class="text-muted">찾아가는 출장세차 서비스</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-6 col-sm-4 portfolio-item">
                 <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -92,7 +92,7 @@
                     <p class="text-muted">깔끔 시공! 완벽 시공!</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-6 col-sm-4 portfolio-item">
                 <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -106,7 +106,7 @@
                     <p class="text-muted">내 집처럼 쾌적하게</p>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 portfolio-item">
+            <div class="col-md-6 col-sm-4 portfolio-item">
                 <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -118,20 +118,6 @@
                 <div class="portfolio-caption">
                     <h4>광택코팅</h4>
                     <p class="text-muted">새 차 인것 처럼 번쩍번쩍</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fas fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>외형복원</h4>
-                    <p class="text-muted">어떠한 손상도 티안나게</p>
                 </div>
             </div>
         </div>
