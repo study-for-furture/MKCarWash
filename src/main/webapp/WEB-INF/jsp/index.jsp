@@ -17,6 +17,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -147,7 +148,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-10">
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row">
                         <div class="col-md-6">
@@ -173,10 +174,31 @@
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Send Email</button>
+                            <%--<span class="input-group-addon">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Email</button>--%>
                         </div>
                     </div>
                 </form>
+            </div>
+            <div class="col-lg-1 vertical-line">&nbsp;</div>
+            <div class="col-lg-1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#">
+                            <i class="fa fa-envelope-square fa-10x" aria-hidden="true"></i>
+                            <p class="text-muted">SMS</p>
+                        </a>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <i class="fa fa-phone-square fa-10x" aria-hidden="true"></i>
+                            <p class="text-muted">Phone</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
