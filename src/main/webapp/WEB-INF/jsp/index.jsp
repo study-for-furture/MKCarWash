@@ -16,7 +16,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 </head>
 
@@ -46,10 +46,68 @@
 </nav>
 
 <!-- Header -->
+<%--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="../img/bg-carousel-1.jpg" alt="첫번째 슬라이드">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="../img/bg-carousel-2.jpg" alt="두번째 슬라이드">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="../img/bg-carousel-3.jpg" alt="세번째 슬라이드">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">이전</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">다음</span>
+    </a>
+</div>
+&lt;%&ndash;
+<article class="all-wrap">
+    <section class="full-slide-wrap">
+        <div id="fullCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#fullCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#fullCarousel" data-slide-to="1"></li>
+                <li data-target="#fullCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="../img/header-bg-carousel.jpg" alt="첫번째 슬라이드">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../img/header-bg1-carousel.jpg" alt="두번째 슬라이드">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../img/header-bg2-carousel.jpg" alt="세번째 슬라이드">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">이전</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">다음</span>
+            </a>
+        </div>
+    </section>
+</article>
+&ndash;%&gt;--%>
 <header class="masthead">
     <div class="container">
         <div class="intro-text">
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">서비스 신청</a>
+            <a class="btn btn-info btn-xl text-uppercase js-scroll-trigger" href="#contact">서비스 신청</a>
         </div>
     </div>
 </header>
@@ -130,11 +188,13 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">서비스 신청</h2>
-                <h3 class="section-subheading text-muted font-weight-bold">언제나 최상의 서비스로 고객님의 성원에 보답하겠습니다.</h3>
+                <h3 class="section-subheading text-info font-weight-bold" style="color: white">
+                    서비스 신청은 최소 시행일 하루 전에 신청해주세요.
+                </h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-10">
+        <%--<div class="row">
+            <div class="col-lg-12">
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row">
                         <div class="col-md-6">
@@ -161,26 +221,28 @@
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
                             <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Send Email</button>
-                            <%--<span class="input-group-addon">
+                            &lt;%&ndash;<span class="input-group-addon">
                                 <i class="fa fa-envelope"></i>
                             </span>
-                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Email</button>--%>
+                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Email</button>&ndash;%&gt;
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="col-lg-1 vertical-line">&nbsp;</div>
-            <div class="col-lg-1">
+        </div>
+        <hr/>--%>
+        <div class="row" style="text-align: center">
+            <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-md-12">
-                        <a href="#">
-                            <i class="fa fa-envelope-square fa-10x" aria-hidden="true"></i>
+                    <div class="col-md-6">
+                        <a href="sms:01085943006">
+                            <i class="fa fa-envelope-square fa-10x"></i>
                             <p class="text-muted">SMS</p>
                         </a>
                     </div>
-                    <div class="col-md-12">
-                        <a href="#">
-                            <i class="fa fa-phone-square fa-10x" aria-hidden="true"></i>
+                    <div class="col-md-6">
+                        <a href="tel:01085943006">
+                            <i class="fa fa-phone-square fa-10x"></i>
                             <p class="text-muted">Phone</p>
                         </a>
                     </div>
@@ -286,7 +348,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="#" target="_blank">
+                        <a href="https://blog.naver.com/rlghks1300" target="_blank">
                             <i class="fab fa-blogger-b"></i>
                         </a>
                     </li>
