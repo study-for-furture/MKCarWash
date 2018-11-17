@@ -32,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <h4><a class="nav-link js-scroll-trigger" href="#portfolio">서비스</a></h4>
+                    <h4><a class="nav-link js-scroll-trigger" href="#portfolio">Services</a></h4>
                 </li>
                 <li class="nav-item">
-                    <h4><a class="nav-link js-scroll-trigger" href="#contact">서비스신청</a></h4>
+                    <h4><a class="nav-link js-scroll-trigger" href="#contact">Service Request</a></h4>
                 </li>
                 <li class="nav-item">
-                    <h4><a class="nav-link js-scroll-trigger" href="#about">회사소개</a></h4>
+                    <h4><a class="nav-link js-scroll-trigger" href="#about">About US</a></h4>
                 </li>
             </ul>
         </div>
@@ -46,68 +46,10 @@
 </nav>
 
 <!-- Header -->
-<%--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="../img/bg-carousel-1.jpg" alt="첫번째 슬라이드">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="../img/bg-carousel-2.jpg" alt="두번째 슬라이드">
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="../img/bg-carousel-3.jpg" alt="세번째 슬라이드">
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">이전</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">다음</span>
-    </a>
-</div>
-&lt;%&ndash;
-<article class="all-wrap">
-    <section class="full-slide-wrap">
-        <div id="fullCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#fullCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#fullCarousel" data-slide-to="1"></li>
-                <li data-target="#fullCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="../img/header-bg-carousel.jpg" alt="첫번째 슬라이드">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="../img/header-bg1-carousel.jpg" alt="두번째 슬라이드">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="../img/header-bg2-carousel.jpg" alt="세번째 슬라이드">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">이전</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">다음</span>
-            </a>
-        </div>
-    </section>
-</article>
-&ndash;%&gt;--%>
 <header class="masthead">
     <div class="container">
         <div class="intro-text">
-            <a class="btn btn-info btn-xl text-uppercase js-scroll-trigger" href="#contact">서비스 신청</a>
+            <%--<a class="btn btn-info btn-xl text-uppercase js-scroll-trigger" href="#contact">서비스 신청</a>--%>
         </div>
     </div>
 </header>
@@ -117,7 +59,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">서비스</h2>
+                <h2 class="section-heading text-uppercase">Services</h2>
                 <h3 class="section-subheading text-muted">MK Car Wash에서 제공하는 최상의 서비스</h3>
             </div>
         </div>
@@ -187,60 +129,29 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">서비스 신청</h2>
+                <h2 class="section-heading text-uppercase">Service Request</h2>
                 <h3 class="section-subheading text-info font-weight-bold" style="color: white">
-                    서비스 신청은 최소 시행일 하루 전에 신청해주세요.
+                    서비스 신청은 최소 시행일 하루 전에 신청해주세요.<br />
                 </h3>
             </div>
         </div>
-        <%--<div class="row">
-            <div class="col-lg-12">
-                <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Send Email</button>
-                            &lt;%&ndash;<span class="input-group-addon">
-                                <i class="fa fa-envelope"></i>
-                            </span>
-                            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Email</button>&ndash;%&gt;
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <hr/>--%>
+        <%-- Email 추후 기능 추가 --%>
         <div class="row" style="text-align: center">
             <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <a href="sms:01085943006">
                             <i class="fa fa-envelope-square fa-10x"></i>
                             <p class="text-muted">SMS</p>
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
+                        <a href="mailto:ulysses1217@naver.com" target="_top">
+                            <i class="fa fa-at fa-10x"></i>
+                            <p class="text-muted">E-Mail</p>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
                         <a href="tel:01085943006">
                             <i class="fa fa-phone-square fa-10x"></i>
                             <p class="text-muted">Phone</p>
@@ -257,7 +168,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">회사연혁</h2>
+                <h2 class="section-heading text-uppercase">About US</h2>
                 <h3 class="section-subheading text-muted">MK Car Wash는 고객님의 차량에 생명을 불어넣는 일을 하고 있습니다.</h3>
             </div>
         </div>
@@ -322,13 +233,28 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <h4>Be Part
-                                <br>Of Our
-                                <br>Story!</h4>
+                            <h4>MK Car
+                                <br/>Wash
+                                <br/>설립</h4>
                         </div>
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Partners -->
+<section id="partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Our Customers</h2>
+                <h3 class="section-subheading text-muted">MK Car Wash의 서비스를 이용하고 계십니다.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Partners -->
         </div>
     </div>
 </section>
@@ -378,18 +304,206 @@
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                                <li>Date: January 2017</li>
-                                <li>Client: Threads</li>
-                                <li>Category: Illustration</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                            <h2 class="text-uppercase">출장세차</h2>
+                            <p class="item-intro text-muted">MK Car Wash는 국내 출장세차 1위 실적의 세차 전문 회사입니다.</p>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="img/portfolio/01/01-1.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/portfolio/01/01-2.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/portfolio/01/01-3.jpg" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/portfolio/01/01-4.jpg" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/portfolio/01/01-5.jpg" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/portfolio/01/01-6.jpg" alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#extWash" aria-expanded="false" aria-controls="collapseExample">
+                                    외부세차
+                                </button>
+                                <button class="btn btn-outline-secondary" data-toggle="collapse" data-target="#innerWash" aria-expanded="false" aria-controls="collapseExample">
+                                    내부세차
+                                </button>
+                                <div class="collapse" id="extWash">
+                                    <div class="card card-body">
+                                        소량의 물과 프리워시 친환경 디테일러 세정제, 초극세사 세차타올을 사용하여 잔기스를 전혀
+                                        발생 시키지 않으며 폐수, 주차장 바닥오염을 남기지 않습니다.
+                                    </div>
+                                </div>
+                                <div class="collapse" id="innerWash">
+                                    <div class="card card-body">
+                                        진공 청소기와 실내 전용 세정제로 실내 먼지, 오염을 제거하여 쾌적의 실내 유지합니다.
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <hr/>
+                            <div>
+                                <ul class="list-inline">
+                                    <h4 class='text-uppercase'>차량 식별 기준</h4>
+                                    <p>차량에 따라 서비스 가격이 달라집니다.</p>
+                                    <table class="table table-striped">
+                                        <colgroup>
+                                            <col width="25%">
+                                            <col width="75%">
+                                        </colgroup>
+                                        <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col" style="text-align: left">차종</th>
+                                            <th scope="col" style="text-align: left">차량</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">경형</th>
+                                            <td style="text-align: left">모닝, 마티즈, 레이, 스파크</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">중소형</th>
+                                            <td style="text-align: left">
+                                                엑센트, 프라이드, i20
+                                                아반떼, SM3, i30, K3, 쏘울, 카렌스, 크루즈
+                                                SM5, K5, 쏘나타, i40, 말리브
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">대형</th>
+                                            <td style="text-align: left">
+                                                에쿠스, 아슬란 , 제네시스, k7, K9, 오피러스, 그랜저, 카니발, 체어맨
+                                                BMW, 폭스바겐, 벤츠, 오피러스, 그랜저, 아우디, 렉서스
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">SUV</th>
+                                            <td style="text-align: left">
+                                                랜드로버, 지프, 카니발, 투싼, 쏘렌토, 싼타페, 모하비, 올란도, 코란도, 렉스턴, 티볼리, 에퀴녹스, QM3, QM5,
+                                                맥스크루즈, 스포티지R, 트랙스, 쉐보레 서버번, 쌍용 XLV
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">승합(9~12인승)</th>
+                                            <td style="text-align: left">
+                                                카니발, 트라젯, 로디우스, 스타렉스, 프레지오
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">특수차</th>
+                                            <td style="text-align: left">
+                                                웨딩카, 전시차, 캠핑카, CF 차량, 버스 등
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </ul>
+                            </div>
+                            <hr/>
+                            <div>
+                                <ul class="list-inline">
+                                    <h4 class='text-uppercase'>출장 세차 가격</h4>
+                                    <p>1회 (내부세차 + 외부세차) 출장비는 거리에 따라 비용이 발생합니다.</p>
+                                    <table class="table table-striped">
+                                        <colgroup>
+                                            <col width="25%">
+                                            <col width="25%">
+                                            <col width="25%">
+                                            <col width="25%">
+                                        </colgroup>
+                                        <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col" style="text-align: left">차종</th>
+                                            <th scope="col" style="text-align: left">가격(VAT별도)</th>
+                                            <th scope="col" style="text-align: left">차종</th>
+                                            <th scope="col" style="text-align: left">가격(VAT별도)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">경형</th>
+                                            <td style="text-align: left">25,000원 ~</td>
+                                            <th scope="row" style="text-align: left">중소형</th>
+                                            <td style="text-align: left">30,000원 ~</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">대형</th>
+                                            <td style="text-align: left">35,000원 ~</td>
+                                            <th scope="row" style="text-align: left">SUV형</th>
+                                            <td style="text-align: left">35,000원 ~</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">승합(9~12인승)</th>
+                                            <td style="text-align: left">40,000원 ~</td>
+                                            <th scope="row" style="text-align: left">특수차</th>
+                                            <td style="text-align: left">50,000원 ~</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </ul>
+                            </div>
+                            <hr/>
+                            <div>
+                                <ul class="list-inline">
+                                    <h4 class='text-uppercase'>출장 세차 월회원제 가격</h4>
+                                    <p>월4회(외부세차4회 + 내부세차1회) 횟수(외부, 실내)에 따라 변동 적용됩니다.</p>
+                                    <table class="table table-striped">
+                                        <colgroup>
+                                            <col width="25%">
+                                            <col width="30%">
+                                            <col width="45%">
+                                        </colgroup>
+                                        <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col" style="text-align: left">추가옵션</th>
+                                            <th scope="col" style="text-align: left">가격(VAT별도)</th>
+                                            <th scope="col" style="text-align: left">내용</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">코팅왁스</th>
+                                            <td style="text-align: left">10,000원 ~ 30,000원</td>
+                                            <td style="text-align: left">외부세차시 최고급 코팅 왁스 추가</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">실내살균</th>
+                                            <td style="text-align: left">10,000원 ~ 30,000원</td>
+                                            <td style="text-align: left">내부 세차시 실내 전체 살균</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </ul>
+                            </div>
+                            <hr/>
+                            <button class="btn btn-default" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
-                                Close Project</button>
+                                Close</button>
                         </div>
                     </div>
                 </div>
@@ -499,6 +613,7 @@
         </div>
     </div>
 </div>
+<%--
 
 <!-- Modal 5 -->
 <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
@@ -533,6 +648,7 @@
         </div>
     </div>
 </div>
+--%>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
