@@ -194,49 +194,7 @@
                                 <p class="text-muted">현대본사, 기아본사, WSP, 엘베스트, KT분당, 현대엠엔소프트 등 다양한 고객사들과의 계약으로 꾸준히 세차업계에서 성장중!</p>
                             </div>
                         </div>
-                    </li><%--
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
                     </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                            </div>
-                        </div>
-                    </li>--%>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>MK Car
@@ -280,10 +238,6 @@
                 <tr>
                     <td style="text-align: left">
                         <div id="carouselPartnersIndicators" class="carousel slide" data-ride="carousel">
-                            <%--<ol class="carousel-indicators">
-                                <li data-target="#carouselPartnersIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselPartnersIndicators" data-slide-to="1"></li>
-                            </ol>--%>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="img/partners/01.jpg" alt="First slide">
@@ -304,10 +258,6 @@
                     </td>
                     <td style="text-align: left">
                         <div id="carouselPartnersIndicators2" class="carousel slide" data-ride="carousel">
-                            <%--<ol class="carousel-indicators">
-                                <li data-target="#carouselPartnersIndicators2" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselPartnersIndicators2" data-slide-to="1"></li>
-                            </ol>--%>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="img/partners/03.jpg" alt="First slide">
@@ -328,10 +278,6 @@
                     </td>
                     <td style="text-align: left">
                         <div id="carouselPartnersIndicators3" class="carousel slide" data-ride="carousel">
-                            <%--<ol class="carousel-indicators">
-                                <li data-target="#carouselPartnersIndicators3" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselPartnersIndicators3" data-slide-to="1"></li>
-                            </ol>--%>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="img/partners/05.jpg" alt="First slide">
@@ -352,10 +298,6 @@
                     </td>
                     <td style="text-align: left">
                         <div id="carouselPartnersIndicators4" class="carousel slide" data-ride="carousel">
-                            <%--<ol class="carousel-indicators">
-                                <li data-target="#carouselPartnersIndicators4" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselPartnersIndicators4" data-slide-to="1"></li>
-                            </ol>--%>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="img/partners/07.jpg" alt="First slide">
@@ -505,13 +447,12 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row" style="text-align: left">경형</th>
-                                            <td style="text-align: left">모닝, 마티즈, 레이, 스파크</td>
+                                            <th scope="row" style="text-align: left">경형 소형</th>
+                                            <td style="text-align: left">모닝, 마티즈, 레이, 스파크, 엑센트, 프라이드, i20</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" style="text-align: left">중소형</th>
+                                            <th scope="row" style="text-align: left">준중형, 중형</th>
                                             <td style="text-align: left">
-                                                엑센트, 프라이드, i20
                                                 아반떼, SM3, i30, K3, 쏘울, 카렌스, 크루즈
                                                 SM5, K5, 쏘나타, i40, 말리브
                                             </td>
@@ -524,22 +465,10 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" style="text-align: left">SUV</th>
+                                            <th scope="row" style="text-align: left">SUV, RV</th>
                                             <td style="text-align: left">
                                                 랜드로버, 지프, 카니발, 투싼, 쏘렌토, 싼타페, 모하비, 올란도, 코란도, 렉스턴, 티볼리, 에퀴녹스, QM3, QM5,
-                                                맥스크루즈, 스포티지R, 트랙스, 쉐보레 서버번, 쌍용 XLV
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">승합(9~12인승)</th>
-                                            <td style="text-align: left">
-                                                카니발, 트라젯, 로디우스, 스타렉스, 프레지오
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">특수차</th>
-                                            <td style="text-align: left">
-                                                웨딩카, 전시차, 캠핑카, CF 차량, 버스 등
+                                                맥스크루즈, 스포티지R, 트랙스, 쉐보레 서버번, 쌍용 XLV, 카니발, 트라젯, 로디우스, 스타렉스, 프레지오
                                             </td>
                                         </tr>
                                         </tbody>
@@ -550,7 +479,7 @@
                             <div>
                                 <ul class="list-inline">
                                     <h4 class='text-uppercase'>출장 세차 가격</h4>
-                                    <p>1회 (내부세차 + 외부세차) 출장비는 거리에 따라 비용이 발생합니다.</p>
+                                    <p>주 2회 외부세차, 월 1회 내부세차 기준</p>
                                     <table class="table table-striped">
                                         <colgroup>
                                             <col width="25%">
@@ -568,22 +497,16 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row" style="text-align: left">경형</th>
-                                            <td style="text-align: left">25,000원 ~</td>
-                                            <th scope="row" style="text-align: left">중소형</th>
-                                            <td style="text-align: left">30,000원 ~</td>
+                                            <th scope="row" style="text-align: left">경형, 소형</th>
+                                            <td style="text-align: left">65,000원 ~</td>
+                                            <th scope="row" style="text-align: left">준중형, 중형</th>
+                                            <td style="text-align: left">70,000원 ~</td>
                                         </tr>
                                         <tr>
                                             <th scope="row" style="text-align: left">대형</th>
-                                            <td style="text-align: left">35,000원 ~</td>
-                                            <th scope="row" style="text-align: left">SUV형</th>
-                                            <td style="text-align: left">35,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">승합(9~12인승)</th>
-                                            <td style="text-align: left">40,000원 ~</td>
-                                            <th scope="row" style="text-align: left">특수차</th>
-                                            <td style="text-align: left">50,000원 ~</td>
+                                            <td style="text-align: left">75,000원 ~</td>
+                                            <th scope="row" style="text-align: left">SUV, RV</th>
+                                            <td style="text-align: left">80,000원 ~</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -592,8 +515,7 @@
                             <hr/>
                             <div>
                                 <ul class="list-inline">
-                                    <h4 class='text-uppercase'>출장 세차 월회원제 가격</h4>
-                                    <p>월4회(외부세차4회 + 내부세차1회) 횟수(외부, 실내)에 따라 변동 적용됩니다.</p>
+                                    <p>주 3회 외부세차, 월 1회 내부세차 기준</p>
                                     <table class="table table-striped">
                                         <colgroup>
                                             <col width="25%">
@@ -868,7 +790,7 @@
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">유리막코팅</h2>
+                            <h2 class="text-uppercase">실내크리닝</h2>
                             <p class="item-intro text-muted">MK Car Wash는 국내 출장세차 1위 실적의 세차 전문 회사입니다.</p>
                             <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
