@@ -157,12 +157,6 @@
                             <p class="text-muted">Phone</p>
                         </a>
                     </div>
-                    <%--<div class="col-md-3">
-                        <a href="javascript:downloadForm();">
-                            <i class="fa fa-download fa-10x"></i>
-                            <p class="text-muted">견적서</p>
-                        </a>
-                    </div>--%>
                 </div>
             </div>
         </div>
@@ -448,27 +442,27 @@
                                         <tbody>
                                         <tr>
                                             <th scope="row" style="text-align: left">경형 소형</th>
-                                            <td style="text-align: left">모닝, 마티즈, 레이, 스파크, 엑센트, 프라이드, i20</td>
+                                            <td style="text-align: left">모닝, 마티즈, 레이, 스파크, 엑센트, 프라이드, i20 등</td>
                                         </tr>
                                         <tr>
                                             <th scope="row" style="text-align: left">준중형, 중형</th>
                                             <td style="text-align: left">
                                                 아반떼, SM3, i30, K3, 쏘울, 카렌스, 크루즈
-                                                SM5, K5, 쏘나타, i40, 말리브
+                                                SM5, K5, 쏘나타, i40, 말리부 등
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row" style="text-align: left">대형</th>
                                             <td style="text-align: left">
                                                 에쿠스, 아슬란 , 제네시스, k7, K9, 오피러스, 그랜저, 카니발, 체어맨
-                                                BMW, 폭스바겐, 벤츠, 오피러스, 그랜저, 아우디, 렉서스
+                                                BMW, 폭스바겐, 벤츠, 오피러스, 그랜저, 아우디, 렉서스 등
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row" style="text-align: left">SUV, RV</th>
                                             <td style="text-align: left">
                                                 랜드로버, 지프, 카니발, 투싼, 쏘렌토, 싼타페, 모하비, 올란도, 코란도, 렉스턴, 티볼리, 에퀴녹스, QM3, QM5,
-                                                맥스크루즈, 스포티지R, 트랙스, 쉐보레 서버번, 쌍용 XLV, 카니발, 트라젯, 로디우스, 스타렉스, 프레지오
+                                                맥스크루즈, 스포티지R, 트랙스, 쉐보레 서버번, 쌍용 XLV, 카니발, 트라젯, 로디우스, 스타렉스, 프레지오 등
                                             </td>
                                         </tr>
                                         </tbody>
@@ -498,15 +492,15 @@
                                         <tbody>
                                         <tr>
                                             <th scope="row" style="text-align: left">경형, 소형</th>
-                                            <td style="text-align: left">65,000원 ~</td>
+                                            <td style="text-align: left">65,000원</td>
                                             <th scope="row" style="text-align: left">준중형, 중형</th>
-                                            <td style="text-align: left">70,000원 ~</td>
+                                            <td style="text-align: left">70,000원</td>
                                         </tr>
                                         <tr>
                                             <th scope="row" style="text-align: left">대형</th>
-                                            <td style="text-align: left">75,000원 ~</td>
+                                            <td style="text-align: left">75,000원</td>
                                             <th scope="row" style="text-align: left">SUV, RV</th>
-                                            <td style="text-align: left">80,000원 ~</td>
+                                            <td style="text-align: left">80,000원</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -516,11 +510,47 @@
                             <div>
                                 <ul class="list-inline">
                                     <p>주 3회 외부세차, 월 1회 내부세차 기준</p>
+                                    <p>이외 견적은 문의바랍니다.</p>
                                     <table class="table table-striped">
                                         <colgroup>
                                             <col width="25%">
-                                            <col width="30%">
-                                            <col width="45%">
+                                            <col width="25%">
+                                            <col width="25%">
+                                            <col width="25%">
+                                        </colgroup>
+                                        <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="col" style="text-align: left">차종</th>
+                                            <th scope="col" style="text-align: left">가격(VAT별도)</th>
+                                            <th scope="col" style="text-align: left">차종</th>
+                                            <th scope="col" style="text-align: left">가격(VAT별도)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">경형, 소형</th>
+                                            <td style="text-align: left">80,000원</td>
+                                            <th scope="row" style="text-align: left">준중형, 중형</th>
+                                            <td style="text-align: left">85,000원</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">대형</th>
+                                            <td style="text-align: left">90,000원</td>
+                                            <th scope="row" style="text-align: left">SUV, RV</th>
+                                            <td style="text-align: left">95,000원</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="list-inline">
+                                    <h4 class='text-uppercase'>추가 작업</h4>
+                                    <table class="table table-striped">
+                                        <colgroup>
+                                            <col width="20%">
+                                            <col width="20%">
+                                            <col width="60%">
                                         </colgroup>
                                         <thead class="thead-dark">
                                         <tr>
@@ -531,14 +561,14 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row" style="text-align: left">코팅왁스</th>
-                                            <td style="text-align: left">10,000원 ~ 30,000원</td>
-                                            <td style="text-align: left">외부세차시 최고급 코팅 왁스 추가</td>
+                                            <th scope="row" style="text-align: left">발수 코팅</th>
+                                            <td style="text-align: left">70,000원</td>
+                                            <td style="text-align: left">외부세차시 최고급 발수 코팅 왁스 추가</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" style="text-align: left">실내살균</th>
-                                            <td style="text-align: left">10,000원 ~ 30,000원</td>
-                                            <td style="text-align: left">내부 세차시 실내 전체 살균</td>
+                                            <th scope="row" style="text-align: left">실내 살균</th>
+                                            <td style="text-align: left">20,000원</td>
+                                            <td style="text-align: left">내부 세차시 연막 살균 작업</td>
                                         </tr>
                                         </tbody>
                                     </table>
