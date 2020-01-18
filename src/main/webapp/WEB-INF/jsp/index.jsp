@@ -40,6 +40,9 @@
                 <li class="nav-item">
                     <h4><a class="nav-link js-scroll-trigger" href="#about">About US</a></h4>
                 </li>
+                <li class="nav-item">
+                    <h4><a class="nav-link js-scroll-trigger" href="#partners">Our Customers</a></h4>
+                </li>
             </ul>
         </div>
     </div>
@@ -263,6 +266,9 @@
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="img/partners/04.jpg" alt="Second slide">
                                 </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/partners/09.jpg" alt="Second slide">
+                                </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -283,6 +289,9 @@
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="img/partners/06.jpg" alt="Second slide">
                                 </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/partners/10.jpg" alt="Second slide">
+                                </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -302,6 +311,9 @@
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="img/partners/08.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/partners/11.jpg" alt="Second slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
