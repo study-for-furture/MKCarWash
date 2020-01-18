@@ -185,7 +185,9 @@
                                 <h4 class="subheading">MK Car Wash</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">현대본사, 기아본사, WSP, 엘베스트, KT분당, 현대엠엔소프트 등 다양한 고객사들과의 계약으로 꾸준히 세차업계에서 성장중!</p>
+                                <p class="text-muted">
+                                    MK Car Wash 설립(기업세차전문업) 현대오트론, 효성캐피탈, 농협, 마이다스자산운용, 아시아신탁, LIG넥스원, 농협 네트워크, 바이트커뮤니케이션, 엠큐브 등 세차관리로 업계성장중
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -200,7 +202,9 @@
                                 <h4 class="subheading">MK Car Wash 설립</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">MK Car Wash 법인 설립</p>
+                                <p class="text-muted">
+                                    현대, 기아 본사, KT , 대우건설, 한일시멘트, 한국난방공사, 현대,기아 시승센터, 현대오토에버 등 관리 업체로 세차업 관리 경력
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -472,9 +476,29 @@
                             <hr/>
                             <div>
                                 <ul class="list-inline">
-                                    <h4 class='text-uppercase'>출장 세차 가격</h4>
-                                    <p>주 2회 외부세차, 월 1회 내부세차 기준</p>
                                     <table class="table table-striped">
+                                        <thead class="thead-dark">
+                                        <th><h4>기업 세차 전문 서비스</h4></th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th>기업 환경에 따라 세차 방식이 달라지므로 전화나 메일로 문의주시기 바랍니다.</th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr/>
+
+                                    <table class="table table-striped">
+                                        <thead class="thead-dark">
+                                        <th><h4>기업 세차 특수 서비스</h4></th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th>저희만의 특별한 서비스로 세차 진행 시 <br/>매트크리닝, 연막탈취, 왁스코팅을 서비스로 진행해드리며 고객님의 만족도를 높여드리고있습니다.</th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <%--<table class="table table-striped">
                                         <colgroup>
                                             <col width="25%">
                                             <col width="25%">
@@ -503,11 +527,11 @@
                                             <td style="text-align: left">80,000원</td>
                                         </tr>
                                         </tbody>
-                                    </table>
+                                    </table>--%>
                                 </ul>
                             </div>
                             <hr/>
-                            <div>
+                            <%--<div>
                                 <ul class="list-inline">
                                     <p>주 3회 외부세차, 월 1회 내부세차 기준</p>
                                     <p>이외 견적은 문의바랍니다.</p>
@@ -574,7 +598,7 @@
                                     </table>
                                 </ul>
                             </div>
-                            <hr/>
+                            <hr/>--%>
                             <button class="btn btn-default" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
                                 Close</button>
@@ -768,27 +792,15 @@
                                         <tbody>
                                         <tr>
                                             <th scope="row" style="text-align: left">경형</th>
-                                            <td style="text-align: left">200,000원 ~</td>
+                                            <td style="text-align: left">150,000원 ~</td>
                                             <th scope="row" style="text-align: left">중소형(국산)</th>
+                                            <td style="text-align: left">200,000원 ~</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" style="text-align: left">대형, SUV</th>
                                             <td style="text-align: left">300,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">대형(국산)</th>
-                                            <td style="text-align: left">400,000원 ~</td>
-                                            <th scope="row" style="text-align: left">SUV형(국산)</th>
-                                            <td style="text-align: left">400,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">승합(9~12인승)</th>
-                                            <td style="text-align: left">400,000원 ~</td>
                                             <th scope="row" style="text-align: left">특수차</th>
-                                            <td style="text-align: left">600,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">중소형(수입)</th>
-                                            <td style="text-align: left">350,000원 ~</td>
-                                            <th scope="row" style="text-align: left">대형,SUV형(수입)</th>
-                                            <td style="text-align: left">450,000원 ~</td>
+                                            <td style="text-align: left">400,000원 ~</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -947,27 +959,15 @@
                                         <tbody>
                                         <tr>
                                             <th scope="row" style="text-align: left">경형</th>
-                                            <td style="text-align: left">90,000원 ~</td>
-                                            <th scope="row" style="text-align: left">중소형(국산)</th>
-                                            <td style="text-align: left">120,000원 ~</td>
+                                            <td style="text-align: left">150,000원 ~</td>
+                                            <th scope="row" style="text-align: left">중소형</th>
+                                            <td style="text-align: left">200,000원 ~</td>
                                         </tr>
                                         <tr>
                                             <th scope="row" style="text-align: left">대형(국산)</th>
-                                            <td style="text-align: left">160,000원 ~</td>
-                                            <th scope="row" style="text-align: left">SUV형(국산)</th>
-                                            <td style="text-align: left">160,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">승합(9~12인승)</th>
-                                            <td style="text-align: left">180,000원 ~</td>
-                                            <th scope="row" style="text-align: left">특수차</th>
                                             <td style="text-align: left">300,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">대형(수입)</th>
-                                            <td style="text-align: left">140,000원 ~</td>
-                                            <th scope="row" style="text-align: left">SUV형(수입)</th>
-                                            <td style="text-align: left">180,000원 ~</td>
+                                            <th scope="row" style="text-align: left">SUV형(국산)</th>
+                                            <td style="text-align: left">300,000원 ~</td>
                                         </tr>
                                         </tbody>
                                     </table>
@@ -1179,39 +1179,21 @@
                                         <tbody>
                                         <tr>
                                             <th scope="row" style="text-align: left">경형</th>
-                                            <td style="text-align: left">120,000원 ~</td>
-                                            <th scope="row" style="text-align: left">중소형(국산)</th>
                                             <td style="text-align: left">150,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">대형(국산)</th>
-                                            <td style="text-align: left">180,000원 ~</td>
-                                            <th scope="row" style="text-align: left">SUV형(국산)</th>
+                                            <th scope="row" style="text-align: left">중소형(국산)</th>
                                             <td style="text-align: left">200,000원 ~</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row" style="text-align: left">승합(9~12인승)</th>
-                                            <td style="text-align: left">220,000원 ~</td>
-                                            <th scope="row" style="text-align: left">특수차</th>
+                                            <th scope="row" style="text-align: left">대형, SUV(국산)</th>
                                             <td style="text-align: left">250,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">대형(수입)</th>
-                                            <td style="text-align: left">160,000원 ~</td>
-                                            <th scope="row" style="text-align: left">SUV형(수입)</th>
-                                            <td style="text-align: left">200,000원 ~</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" style="text-align: left">SUV(수입)</th>
-                                            <td style="text-align: left">220,000원 ~</td>
-                                            <th scope="row" style="text-align: left"></th>
-                                            <td style="text-align: left"></td>
+                                            <th scope="row" style="text-align: left">특수차</th>
+                                            <td style="text-align: left">350,000원 ~</td>
                                         </tr>
                                         </tbody>
                                     </table>
                                 </ul>
                             </div>
-                            <hr/>
+                            <hr/><%--
                             <div>
                                 <ul class="list-inline">
                                     <h4 class='text-uppercase'>신차코팅(기계코팅) 가격</h4>
@@ -1253,8 +1235,7 @@
                                         </tbody>
                                     </table>
                                 </ul>
-                            </div>
-                            <hr/>
+                            </div>--%>
                             <button class="btn btn-default" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
                                 Close</button>
